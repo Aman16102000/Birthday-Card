@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_margin="8dp"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-light"
+        android:background="#47dada"
+        android:id="@+id/secondparent"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Live and Laugh Bebuchak"
+        android:layout_below="@id/secondparent"
+        android:textSize="20sp"
+        android:layout_margin="8dp"
+        android:background="#47dada"
+        android:id="@+id/thirdparent"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Party Hard"
+        android:layout_below="@id/thirdparent"
+        android:textSize="20sp"
+        android:layout_margin="8dp"
+        android:background="#47dada"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_margin="15dp"
+        android:background="#47dada"
+        android:id="@+id/from"/>
+</RelativeLayout>
